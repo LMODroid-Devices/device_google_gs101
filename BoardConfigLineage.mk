@@ -5,7 +5,7 @@
 #
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lmodroid/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += device/google/gs101/manifest_radio.xml
 
 # Partitions
@@ -28,7 +28,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/lmodroid/config/BoardConfigReservedSize.mk
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
